@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EasyCalculator" parent="Theme.Material3.DayNight.NoActionBar">
+         <item name="colorPrimary">@color/buttom_bg2</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Theme.EasyCalculator" parent="Base.Theme.EasyCalculator" />
+
+    <style name="operator_style" parent="btn_style">
+        <item name="android:textColor">@color/buttom_bg2</item>
+    </style>
+
+    <style name="number_style" parent="btn_style">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="btn_style" parent="Widget.MaterialComponents.ExtendedFloatingActionButton">
+        <item name="android:layout_width">65dp</item>
+        <item name="android:layout_height">65dp</item>
+        <item name="backgroundTint">@color/button_bg</item>
+        <item name="cornerRadius">32dp</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:layout_margin">7dp</item>
+    </style>
+
+    
+</resources>
